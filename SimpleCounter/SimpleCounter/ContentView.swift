@@ -30,6 +30,9 @@ struct ContentView: View {
                     Text("-5")
                 }
             }
+            Button(action: reset) {
+                Text("Reset").font(.largeTitle)
+            }
 //            Button(action: next) {
 //                Text("Next")
 //            }
@@ -46,6 +49,9 @@ struct ContentView: View {
     }
     func Fminus() {
         counter = counter - 5
+    }
+    func reset() {
+        counter = 0
     }
 //    func next() {
 //

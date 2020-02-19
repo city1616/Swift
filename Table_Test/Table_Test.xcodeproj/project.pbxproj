@@ -14,6 +14,8 @@
 		4150055A23FC14CD00150DB4 /* Table_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4150055823FC14CD00150DB4 /* Table_Test.xcdatamodeld */; };
 		4150055C23FC14CE00150DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4150055B23FC14CE00150DB4 /* Assets.xcassets */; };
 		4150055F23FC14CE00150DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4150055D23FC14CE00150DB4 /* LaunchScreen.storyboard */; };
+		4150056723FD567500150DB4 /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150056623FD567500150DB4 /* Type1.swift */; };
+		4150056923FD5D9200150DB4 /* Type2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150056823FD5D9200150DB4 /* Type2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4150055B23FC14CE00150DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4150055E23FC14CE00150DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4150056023FC14CE00150DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4150056623FD567500150DB4 /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
+		4150056823FD5D9200150DB4 /* Type2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				4150055D23FC14CE00150DB4 /* LaunchScreen.storyboard */,
 				4150056023FC14CE00150DB4 /* Info.plist */,
 				4150055823FC14CD00150DB4 /* Table_Test.xcdatamodeld */,
+				4150056623FD567500150DB4 /* Type1.swift */,
+				4150056823FD5D9200150DB4 /* Type2.swift */,
 			);
 			path = Table_Test;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			files = (
 				4150055423FC14CD00150DB4 /* ViewController.swift in Sources */,
 				4150055023FC14CD00150DB4 /* AppDelegate.swift in Sources */,
+				4150056923FD5D9200150DB4 /* Type2.swift in Sources */,
 				4150055A23FC14CD00150DB4 /* Table_Test.xcdatamodeld in Sources */,
 				4150055223FC14CD00150DB4 /* SceneDelegate.swift in Sources */,
+				4150056723FD567500150DB4 /* Type1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
