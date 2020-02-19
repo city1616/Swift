@@ -22,6 +22,14 @@ struct ContentView: View {
                     Text("Minus")
                 }
             }
+            HStack {
+                Button(action: Fplus) {
+                    Text("+5")
+                }
+                Button(action: Fminus) {
+                    Text("-5")
+                }
+            }
 //            Button(action: next) {
 //                Text("Next")
 //            }
@@ -32,6 +40,12 @@ struct ContentView: View {
     }
     func minus() {
         counter = counter - 1
+    }
+    func Fplus() {
+        counter = counter + 5
+    }
+    func Fminus() {
+        counter = counter - 5
     }
 //    func next() {
 //
