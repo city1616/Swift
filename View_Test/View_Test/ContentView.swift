@@ -26,32 +26,6 @@ struct ContentView: View {
     @State var txtHello = "Hello"
     var body: some View {
         VStack {
-//            Text("Hello, World!!!")
-//                .font(.title)
-//
-//            Text("\(txtHello)")
-//            Text("\(counter)").font(.largeTitle)
-//            HStack {
-//                Button(action: plus) {
-//                    Text("Plus")
-//                }
-//                Button(action: minus) {
-//                    Text("Minus")
-//                }
-//            }
-//            Button(action: plus) {
-//                Text("Hello")
-//            }
-//            Text("Hello")
-//            Text("This is SWIFT World!").font(.largeTitle)
-//            HStack {
-//                Text("Name : ")
-//                TextField(txtName, text: $txtName)
-//                    .frame(width: 200.0)
-//            }
-//            Button(action: show) {
-//                Text("submit")
-//            }
             NavigationView {
                 Text("Hi")
                     .navigationBarTitle("Title")
