@@ -44,28 +44,6 @@
                                             <outlet property="LabelText" destination="ByO-A3-61F" id="4HM-IE-mWM"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NDb-F2-AsJ">
-                                        <rect key="frame" x="0.0" y="119" width="375" height="60.666667938232422"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NDb-F2-AsJ" id="eFi-CJ-Xfj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60.666667938232422"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaN-4x-Kgb">
-                                                    <rect key="frame" x="20" y="20" width="335" height="20.666666666666671"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="eaN-4x-Kgb" firstAttribute="leading" secondItem="eFi-CJ-Xfj" secondAttribute="leading" constant="20" symbolic="YES" id="4E8-XM-BcN"/>
-                                                <constraint firstAttribute="trailing" secondItem="eaN-4x-Kgb" secondAttribute="trailing" constant="20" symbolic="YES" id="aw1-qg-dbJ"/>
-                                                <constraint firstAttribute="bottom" secondItem="eaN-4x-Kgb" secondAttribute="bottom" constant="20" symbolic="YES" id="i9t-PU-Rdy"/>
-                                                <constraint firstItem="eaN-4x-Kgb" firstAttribute="top" secondItem="eFi-CJ-Xfj" secondAttribute="top" constant="20" symbolic="YES" id="lAH-Qe-Ad3"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                 </prototypes>
                                 <sections/>
                             </tableView>
