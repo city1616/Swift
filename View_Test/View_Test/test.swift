@@ -9,8 +9,13 @@
 import SwiftUI
 
 struct test: View {
+    @State private var toggleStatus = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List() {
+            Toggle(isOn: $toggleStatus) {
+                Text("Allow Notifications")
+            }
+        }
     }
 }
 

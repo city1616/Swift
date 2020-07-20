@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4140EE4F24C59664005D6243 /* IU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140EE4E24C59664005D6243 /* IU.swift */; };
+		4140EE5124C59964005D6243 /* navi_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140EE5024C59964005D6243 /* navi_test.swift */; };
+		4140EE5324C59BEA005D6243 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140EE5224C59BEA005D6243 /* test.swift */; };
 		41A054A024C4652C003594B0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0549F24C4652C003594B0 /* CircleImage.swift */; };
 		41A054A624C4685B003594B0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A054A524C4685B003594B0 /* MapView.swift */; };
 		41C2D51724C446D8005412FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2D51624C446D8005412FE /* AppDelegate.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4140EE4E24C59664005D6243 /* IU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IU.swift; sourceTree = "<group>"; };
+		4140EE5024C59964005D6243 /* navi_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navi_test.swift; sourceTree = "<group>"; };
+		4140EE5224C59BEA005D6243 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		41A0549F24C4652C003594B0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		41A054A524C4685B003594B0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		41C2D51324C446D8005412FE /* View_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = View_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +71,9 @@
 				41C2D51624C446D8005412FE /* AppDelegate.swift */,
 				41C2D51824C446D8005412FE /* SceneDelegate.swift */,
 				41C2D51D24C446D8005412FE /* ContentView.swift */,
+				4140EE5024C59964005D6243 /* navi_test.swift */,
+				4140EE5224C59BEA005D6243 /* test.swift */,
+				4140EE4E24C59664005D6243 /* IU.swift */,
 				41A0549F24C4652C003594B0 /* CircleImage.swift */,
 				41A054A524C4685B003594B0 /* MapView.swift */,
 				41C2D51F24C446DA005412FE /* Assets.xcassets */,
@@ -158,9 +167,12 @@
 				41C2D51724C446D8005412FE /* AppDelegate.swift in Sources */,
 				41A054A624C4685B003594B0 /* MapView.swift in Sources */,
 				41C2D51C24C446D8005412FE /* View_Test.xcdatamodeld in Sources */,
+				4140EE4F24C59664005D6243 /* IU.swift in Sources */,
+				4140EE5324C59BEA005D6243 /* test.swift in Sources */,
 				41C2D51E24C446D8005412FE /* ContentView.swift in Sources */,
 				41C2D51924C446D8005412FE /* SceneDelegate.swift in Sources */,
 				41A054A024C4652C003594B0 /* CircleImage.swift in Sources */,
+				4140EE5124C59964005D6243 /* navi_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
